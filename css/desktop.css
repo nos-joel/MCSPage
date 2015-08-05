@@ -1,0 +1,41 @@
+@media only screen and (min-width: 1140px) {
+  
+/*  #ini:hover, #serv:hover, #cntt:hover, #refx:hover{ */
+.menufont:hover{
+-webkit-animation:pa .5s;
+animation: pa .5s;
+-webkit-animation-fill-mode: forwards; }
+
+@-webkit-keyframes pa{
+to{color:white;border-radius: 22px;}/*rgb(192,248,62)*/
+}
+@keyframes pa{
+to{color:white;border-radius: 22px;}/*rgb(192,248,62)*/
+}
+.menufont{
+ font-family:Berlin sans fb;
+}
+
+a:link {
+color:black;
+text-decoration:none;
+}
+a:visited {
+color:black;
+text-decoration:none;
+}
+body{margin: 0px;}
+#header{padding-top:1px;background-color: rgb(115,187,62);border-radius: 20px;}/*rgb(100, 207, 43);*/ 
+ul{background-color: rgb(115,187,62);}
+ul li{background-color: rgb(115,187,62);display: inline-block;border-style: solid;border-width: thin;border-color: white;
+width:22%;margin:1px 1%;text-align: center;
+}
+#ulwrapper{float:left;width:50%;margin-left: .5%;}
+
+#ulwrapper ul li{width:44%;margin:1px 2%;text-align: center;}
+#menuoptions{padding-bottom: 10px;
+    background-color: rgb(115,187,62);   
+}
+#logo{}
+#thick{display:none;}
+#lt{display: none;}
