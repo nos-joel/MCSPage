@@ -52,4 +52,4 @@ background-color: rgb(115,187,62); color: white;}
 .glyphicon.glyphicon-home{font-size: 17px;}
 .glyphicon.glyphicon-search{font-size:15px;color: #99ccff;}
 .glyphicon.glyphicon-calendar{font-size:20px;}
-#servli li{font-size: 16px; margin-bottom: 8px;}
+#servli li{font-size: 120%; margin-bottom: 8px;}
