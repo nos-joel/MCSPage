@@ -1,4 +1,4 @@
-
+body{font-size: 16px;}
 #ini:hover, #serv:hover, #cntt:hover, #refx:hover{
 -ms-animation: pa .5s;
 -webkit-animation: pa .5s;
