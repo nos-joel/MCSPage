@@ -1,5 +1,5 @@
 @media only screen and (min-width: 820px) {
-body{font-size: 16px; margin: 0px;font-family:Berlin sans fb; font-weight: lighter;}
+body{font-size: 16px; margin: 0px; font-family: 'Open Sans', sans-serif; font-weight: lighter;}
 /*#ini:hover, #serv:hover, #cntt:hover, #refx:hover */
   #leftul li:hover, #rightul li:hover{
 -ms-animation: pa .5s;
@@ -24,7 +24,7 @@ to{background-Color:lightslategray;color:white;border-radius: 8px;}/*rgb(192,248
 /*rgb(192,248,62)*/
 
 .menufont{
- font-family:Berlin sans fb; font-weight: lighter;
+ font-family: 'Open Sans', sans-serif; font-weight: lighter;
 }
 #ini, #serv, #cntt, #refx{padding: 0 6px;}
 a:link {
@@ -36,12 +36,12 @@ color:black;
 text-decoration:none;
 }
 
-ul li a{font-size: 24px;}
+ul li a{font-size: 20px;}
 #header{padding-top:1px; background-color: rgb(115,187,62);border-top-right-radius: 15px; border-top-left-radius: 15px;} /*rgb(100, 207, 43);*/ 
-#leftul, #rightul,#leftul li, #rightul li {margin:0;padding:0;display:none;}  
+#leftul, #rightul,#leftul li, #rightul li {margin:0; padding:0; display:none;}  
 #rightul { margin-left: -4px; } 
-#leftul {background-color: rgb(115,187,62); display: inline-block; width: 50%; padding-left:15%}
-#rightul {background-color: rgb(115,187,62); display: inline-block; width: 50%; padding-bottom:5px; padding-right:15%;}
+#leftul {background-color: rgb(115,187,62); display: inline-block; width: 50%; padding-left:15%;}
+#rightul {background-color: rgb(115,187,62); display: inline-block; width: 49.95%; padding-bottom:5px; padding-right:15%; }
   
 /* new */ 
 #leftul { border-top-width: 1px; border-top-color: white; border-top-style: solid; padding-bottom:5px;}
@@ -59,18 +59,25 @@ ul li a{font-size: 24px;}
 
 #inicioContent p {color:#585858;font-size: 20px; }
 #inicioContent{ margin-left: 10%; width: 50%; float:left; margin-top: 10px; }
-#contact{float: left; display:none;margin-top:20px; font-size: 20px; color:#585858; margin-left: 10%; width: 50%;}
+#contact{float: left; display:none; margin-top:20px; font-size: 20px; color:#585858; margin-left: 10%; width: 50%;}
 
 #services{float: left; margin-top: 20px; font-size: 120%; display:none; color:#585858; margin-left: 10%; width: 50%; }
 #reflexiones{ margin-left: 10%; width: 50%; display: none; float:left;}
 #reflexiones a{color: #585858; }
-div#services > p:first-child{margin-bottom: 10px; height: 120px; font-size: 130%;}
+div#services > p:first-child{ height: 0; font-size: 110%;}
 .glyphicon.glyphicon-home{font-size: 17px;}
 .glyphicon.glyphicon-search{font-size:15px;color: #99ccff;}
 .glyphicon.glyphicon-calendar{font-size:20px;}
-#servli li{font-size: 16px; margin-bottom: 8px;}
-#schedule th{background-color: lightsteelblue; color:black; text-align: center; border: 1px dashed grey;}  
-
-
-
+.glyphicon.glyphicon-chevron-right{font-size: 14px; color:#3399FF;}
+#servli {margin-top: 40px;}
+#servli li{font-size: 100%; margin-bottom: 8px;}
+#schedule th {background-color: #75B675; color:black; text-align: center; border: 1px dashed grey;}  
+#schedule {border: 1px dashed grey;}
+#schedule td {padding:0 10px; border:none;}
+#schedule tr:nth-child(2) { background-color: #99E699; /*tr:nth-child(1) td:nth-child(5)*/ }
+#schedule tr:nth-child(3), tr:nth-child(4) { background-color: #DCFFCE;}
+  
+ 
+  
+  
 }
