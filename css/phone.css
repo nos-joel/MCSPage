@@ -1,4 +1,4 @@
-body{font-size: 16px; margin: 0px;font-family:Berlin sans fb; font-weight: lighter;}
+body{font-size: 16px; margin: 0px; font-family: 'Open Sans', sans-serif;		; font-weight: lighter;}
 #ini:hover, #serv:hover, #cntt:hover, #refx:hover{
 -ms-animation: pa .5s;
 -webkit-animation: pa .5s;
@@ -22,7 +22,7 @@ to{background-Color:grey;color:white;border-radius: 23px;}/*rgb(192,248,62)*/
 /*rgb(192,248,62)*/
 
 .menufont{
- font-family:Berlin sans fb; font-weight: lighter;
+ font-family: 'Open Sans', sans-serif; font-weight: lighter;
 }
 #ini, #serv, #cntt, #refx{padding: 0 6px;}
 a:link {
@@ -49,15 +49,17 @@ background-color: rgb(115,187,62); color: white;}
 #inicioContent p {color:#585858;font-size: 20px;margin-left: 5px; margin-top: 20px; }
 #contact{display:none;margin-top:20px; font-size: 20px; color:#585858;
 margin-left: 5px;}
-#cnttul{list-style-type: circle;
-}
-#reflexiones, #services{margin-top: 20px; font-size: 120%; display:none; color:#585858;
-}
+#cnttul{list-style-type: circle; }
+#reflexiones, #services{margin-top: 20px; font-size: 120%; display:none; color:#585858; }
 #reflexiones{margin-left: 5px;}
-#reflexiones a{color: #585858;
-}
-div#services > p:first-child{margin-bottom: 10px; height: 120px; font-size: 130%;}
+#reflexiones a{color: #585858; }
+div#services > p:first-child{margin-bottom: 10px; height: 120px; font-size: 110%;}
 .glyphicon.glyphicon-home{font-size: 17px;}
 .glyphicon.glyphicon-search{font-size:15px;color: #99ccff;}
 .glyphicon.glyphicon-calendar{font-size:20px;}
-#servli li{font-size: 16px; margin-bottom: 8px;}
+.glyphicon.glyphicon-chevron-right{font-size: 14px; color:#3399FF;}
+#servli li{font-size: 100%; margin-bottom: 8px;}
+#schedule{margin-right:5px;}
+#schedule th {background-color: #75B675; color:black; text-align: center; border: 2px solid grey;}  
+#schedule, #schedule td {border: 2px solid grey;}
+#schedule td {padding:0 6px;}
