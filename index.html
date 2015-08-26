@@ -16,21 +16,18 @@
 </head>
     <body>
 <div id="header">
-    <h1 class="menufont" style="margin-top:0px;text-align: center;color:white;font-size: 125%;">Dra. Mar&iacute;a Col&oacute;n Scarano</h1><h1 style="text-align:center;">Psic&oacute;loga Cl&iacute;nica</h1>
+    <h1 style="margin-top:0px;text-align: center;color:white;font-size: 200%;">Dra. Mar&iacute;a Col&oacute;n Scarano</h1><h1 style="text-align:center; font-size: 150%; padding-bottom: 10px;">Psic&oacute;loga Cl&iacute;nica</h1>
 </div>
 
-<div id="ulwrapper">
 <ul id="leftul">
     <li class="menufont"><a id="ini" href="#" ><span class="glyphicon glyphicon-home"></span> INICIO</a></li>
     <li class="menufont"><a id="serv" href="#">SERVICIOS</a></li>
-</ul>
-</div>
+</ul>	
 <ul id="rightul">
     <li class="menufont"><a id="cntt" href="#">CONTACTAR</a></li>
     <li class="menufont"><a id="refx" href="#">REFLEXIONES</a></li>    
 </ul>
 
-   
 <div id="lt"><span class="glyphicon glyphicon-home"></span> INICIO</div>
 <img id="logo" src="images/logo.png">
 
@@ -42,15 +39,33 @@
 </div>
 <!--<input type ="file"  id=" take-picture" accept ="image/*"> -->
 <div class="menufont" id="contact">
-<h1 style="font-size: 22px; margin-bottom: 10px;"><u>Horario</u>:</h1>
-<ul id="cnttul">
-<li><span class ="glyphicon glyphicon-calendar"> </span>lunes y martes: 9am hasta 5pm</li>
-</ul><br/>
+    <table id="schedule">
+  <tr>
+    <th colspan="2">Horario</th>
+  </tr>
+  <tr>
+    <td>Dia</td>
+    <td>Hora</td>
+  </tr>
+  <tr>
+    <td>Martes</td>
+    <td>9am a 5pm</td>
+  </tr>
+   <tr>
+    <td>Viernes</td>
+    <td>9am a 6pm</td>
+  </tr>    
+</table>
+  
+
+
+<br/>
 <p style="margin-top: 20px;">Los servicios son ofrecidos en el Hospital Ryder de Humacao, oficina 506.<a href="http://maps.google.com/?q=hospital ryder, humacao, PR, 00791"><span title="buscar" class="glyphicon glyphicon-search"></span></a></p><br/>
-<p>Para obtener una cita, favor de llamar al <a href="tel:787-123-4567"><span class="glyphicon glyphicon-earphone"><u>787-123-4567</u></span></a> &oacute; al <a href="tel:787-223-4567"><span class="glyphicon glyphicon-earphone"><u>787-223-4567</u></span></a></p><br>
+<p>Para obtener una cita, favor de llamar al <a href="tel:787-123-4567"><span class="glyphicon glyphicon-earphone"><u>787-123-4567</u></span></a> &oacute; al <a href="tel:787-223-4567"><span class="glyphicon glyphicon-earphone"><u>787-223-4567</u></span></a></p><br/>
 </div>
-<div class="menufont" id="services"><div style="margin-bottom: 10px; height: 120px;">Los servicios ofrecidos son los siguientes:</div>
-<ul id = "servli" style="margin-left: 5px;list-style-position:inside;"><!-- list-style-type: square;-->
+<div class="menufont" id="services">
+<p>Los servicios ofrecidos son los siguientes:</p>
+<ul id = "servli" style="margin-left: 5px;list-style-position:inside;">
 <li><p style="margin-bottom: 5px;"><span class="glyphicon glyphicon-chevron-right"> </span>Terapia de ni&ntilde;os, adolescentes y adultos.</p>Las terapias pueden ser ofrecidas en modalidad individual, pareja y familiar.</li>
 <li><span class="glyphicon glyphicon-chevron-right"> </span>Evaluaciones Psicom&eacute;tricas (IQ/Ingreso escolar)</li>
 <li><span class="glyphicon glyphicon-chevron-right"> </span>Evaluaciones Psicol&oacute;gicas</li>
@@ -58,7 +73,7 @@
 </ul>
 </div>
 <div class="menufont" id="reflexiones">
-A continuaci&oacute;n encontrar&aacute;s una lista de referencias del internet. Las mismas son provistas como herramientas de auto ayuda. Entre ellas se encuentran  varios art&iacute;culos en los cuales podr&aacute;s encontrar tips de ayuda para situaciones como el coraje, la depresi&oacute;n, alcoholismo etc. 
+<p>A continuaci&oacute;n encontrar&aacute;s una lista de referencias del internet. Las mismas son provistas como herramientas de auto ayuda. Entre ellas se encuentran  varios art&iacute;culos en los cuales podr&aacute;s encontrar tips de ayuda para situaciones como el coraje, la depresi&oacute;n, alcoholismo etc. </p>
 <a style="margin-top:5px; display: block; "href="#">www.abc.com</a>
 <a style="display: block; margin-top:5px;" href="#">www.abcd.com</a>
 <a style="display: block; margin-top:5px;" href="#">www.abcde.com</a>
@@ -108,6 +123,7 @@ $("#lt").css({display: 'none'});
 }
 });                    
 });
+
 
 </script>
 </body>
