@@ -1,4 +1,4 @@
-body{font-size: 16px; margin: 0px;}
+body{font-size: 16px; margin: 0px;font-family:Berlin sans fb; font-weight: lighter;}
 #ini:hover, #serv:hover, #cntt:hover, #refx:hover{
 -ms-animation: pa .5s;
 -webkit-animation: pa .5s;
@@ -17,8 +17,12 @@ to{background-Color:grey;color:white;border-radius: 23px;}/*rgb(192,248,62)*/
 to{background-Color:grey;color:white;border-radius: 23px;}/*rgb(192,248,62)*/
 }
 
+
+
+/*rgb(192,248,62)*/
+
 .menufont{
- font-family:Berlin sans fb;
+ font-family:Berlin sans fb; font-weight: lighter;
 }
 #ini, #serv, #cntt, #refx{padding: 0 6px;}
 a:link {
@@ -29,27 +33,31 @@ a:visited {
 color:black;
 text-decoration:none;
 }
-ul li a{font-size: 120%;}
+
+ul li a{font-size: 20px;}
 #header{padding-top:1px; background-color: rgb(115,187,62);border-top-right-radius: 15px; border-top-left-radius: 15px;} /*rgb(100, 207, 43);*/ 
 #rightul, #leftul {background-color: rgb(115,187,62);}
-#rightul li, #leftul li{background-color:rgba(119,200,69,.1) ;display: inline-block;
-width:47%;margin:1px 1%;text-align: center;
+#rightul li, #leftul li{background-color:rgba(119,200,69,.1) ; display: inline-block; width:47%; margin:1px 1%; text-align: center;
 }
-#rightul{padding-bottom: 5px;}
-#ulwrapper{}
+#rightul, #rightul {padding-bottom: 5px;}
+
 #logo{float:left;width:25%;height: 120px; margin-left:20px; margin-right: 20px; padding-left: 0px; margin-top: 10px;padding-right: 0px;border: 1px solid rgba(115,187,62,.2);}
 #lt{font-size: 20px;display:none;text-align:center; 
 background-color: rgb(115,187,62); color: white;}
 #thick{background-image: url("../images/thick.png");background-repeat: repeat-y;width:36px;height:100px;margin-left: 47px;}
 #c3ontent {margin-left: 35%;margin-top: 20px; width: 60%;background-color: grey;padding-left: 2px;}
 #inicioContent p {color:#585858;font-size: 20px;margin-left: 5px; margin-top: 20px; }
-#contact { display:none;margin-top:20px; font-size: 20px; color:#585858; margin-left: 5px; }
-#cnttul { list-style-type: circle; }
-#reflexiones, #services{margin-top: 20px; font-size: 20px; display:none;color:#585858;}
+#contact{display:none;margin-top:20px; font-size: 20px; color:#585858;
+margin-left: 5px;}
+#cnttul{list-style-type: circle;
+}
+#reflexiones, #services{margin-top: 20px; font-size: 120%; display:none; color:#585858;
+}
 #reflexiones{margin-left: 5px;}
 #reflexiones a{color: #585858;
 }
+div#services > p:first-child{margin-bottom: 10px; height: 120px; font-size: 130%;}
 .glyphicon.glyphicon-home{font-size: 17px;}
 .glyphicon.glyphicon-search{font-size:15px;color: #99ccff;}
 .glyphicon.glyphicon-calendar{font-size:20px;}
-#servli li{font-size: 120%; margin-bottom: 8px;}
+#servli li{font-size: 16px; margin-bottom: 8px;}
